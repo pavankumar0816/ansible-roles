@@ -1,5 +1,5 @@
-- name: restart "{{ component }}"
+- name: restart nginx
   ansible.builtin.service:
-    name: "{{ component }}"
+    name: nginx
     state: restarted
     enabled: yes
