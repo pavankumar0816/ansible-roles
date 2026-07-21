@@ -1,0 +1,6 @@
+# For understanding purpose i wrote this main.yaml
+# Just for test call
+
+- name: test call
+  ansible.builtin.debug:
+    msg: "Configuring {{ component }}"
