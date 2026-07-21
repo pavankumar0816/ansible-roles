@@ -3,4 +3,5 @@ ansible_password: DevOps321
 MONGODB_HOST: mongodb-dev.pmpkdev.online
 CATALOGUE_HOST: catalogue-dev.pmpkdev.online
 REDIS_HOST: redis-dev.pmpkdev.online
-component: catalogue
+CART_HOST: cart-dev.pmpkdev.online
+MYSQL_HOST: mysql-dev.pmpkdev.online
