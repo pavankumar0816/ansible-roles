@@ -1,7 +1,7 @@
 - name: ansible roles
   hosts: local
   connection: local
-  roles:
   vars:
-    topic: vault from vars
+    topic: vault from play
+  roles:
   - demo
