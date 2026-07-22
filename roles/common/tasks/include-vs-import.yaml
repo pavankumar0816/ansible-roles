@@ -1,3 +1,4 @@
 - name: task 1
-  ansible.builtin.debbug:
+  ansible.builtin.debug:
     msg: "Task 1"
+  when: os == "RedHat"
