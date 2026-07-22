@@ -1,6 +1,6 @@
 - name: hello world
-  vars:
-    topic: vault from task
+  # vars:
+  #   topic: vault from task
   ansible.builtin.debug:
     msg: "Hi  {{ topic }} "
 
