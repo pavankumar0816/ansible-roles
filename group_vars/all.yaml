@@ -9,3 +9,4 @@ MYSQL_HOST: mysql-dev.pmpkdev.online
 SHIPPING_HOST: shipping-dev.pmpkdev.online
 RABBITMQ_HOST: rabbitmq-dev.pmpkdev.online
 PAYMENT_HOST: payment-dev.pmpkdev.online
+topic: vault from group_vars
