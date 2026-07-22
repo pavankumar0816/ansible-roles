@@ -1,8 +1,11 @@
 - name: task 1
   ansible.builtin.debug:
     msg: "Task 1"
-  when: os == "RedHat"
 
 - name: set the os fact
   ansible.builtin.set_fact:
     os: "debian"
+
+- name: task 2
+  ansible.builtin.debug:
+    msg: "Task 2"
