@@ -4,4 +4,5 @@
   vars:
     topic: vault from play
   roles:
-  - demo
+  - demo  # When Ansible executes, it looks for the demo role inside the roles directory and loads it.
+          # Instead of keeping everything in a single playbook, the demo role organizes different components into separate directories, making the code modular, reusable, and easier to maintain.
